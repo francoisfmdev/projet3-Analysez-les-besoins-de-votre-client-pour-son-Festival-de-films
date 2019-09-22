@@ -1,0 +1,206 @@
+/*
+auteur: Francois Maestrati
+site: festival du film p3
+*/
+
+
+/*----------SOMMAIRE----------
+
+
+CSS GENERAL
+MENU
+SECTION
+
+
+
+/*----------CSS GENERAL----------*/
+
+body{
+	background-color: #EFEFEF;
+}
+
+
+
+hr{
+	background-color: #b0413e;
+}
+
+h1{
+	padding-top:100px;
+	padding-left:150px;
+	padding-bottom: 50px;
+	font-size: 50px; 
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	}
+
+
+
+
+
+h2,h3,h4,h5{
+	
+	color: #b0413e;
+	font-family: 'Oswald', sans-serif;
+}
+.customh2{
+	
+	color:#ffffff;
+}
+
+.article-position{
+	padding-top: 10px !important;
+	padding-bottom: 40px !important;
+		
+}
+
+article{
+	
+	padding-bottom: 20px;
+	
+}
+
+p{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 20px !important;
+	font-family: 'Rubik', sans-serif;
+	
+}
+
+/*---------MENU-----------------*/
+.ban{
+	
+	background-image: url("baniere.jpg");
+	background-repeat:no-repeat;
+	 background-position: center; 
+	height:400px;
+	
+	
+}
+
+
+.navbar,{
+	background-color:#EFEFEF!important;
+	
+}
+
+.nav-link{
+	margin-top:15px;
+	margin-left:25px;
+	margin-right:25px;
+	font-size: 25px;
+	color:  #ffffff;
+	font-size:30px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+  
+.nav-link:hover{
+	
+	color: #b0413e;
+	font-size:40px;
+	font-weight: bold;
+}
+
+/*----------MAIN PAGE-------*/
+section{
+    
+    margin-top: 100px;
+}
+
+.card{
+	border: 1px solid #b0413e;
+	border-radius: 10px;
+	margin-bottom:50px;
+}
+
+.card-header{
+	background-color: #b0413e;
+	border-radius: 10px;
+	
+}
+.card-header > h2{ 
+	color: #ffffff;
+}
+
+.card-footer{
+	border-radius: 10px;
+	background-color: #b0413e;
+    color: #ffffff;
+	font-weight: bold;
+	font-size:25px;
+	font-family: 'Rubik', sans-serif;
+}
+
+
+
+
+/*----------form---------*/
+
+label{
+	color: #b0413e;
+	font-size: 18px ;
+	
+}
+
+input{
+	border: 1px solid #b0413e!important;
+	border-radius: 10px!important;
+}
+
+input:focus{
+	
+	box-shadow: 0px 0px 15px #b0413e!important;
+}
+
+button{
+	border: 1px solid  #b0413e!important;
+	border-radius: 10px!important;
+	color: #ffffff;
+	background-color: #b0413e!important;
+}
+button:hover{
+	
+	box-shadow: 0px 0px 15px #b0413e;
+}
+
+textarea{
+	border: 1px solid #b0413e!important;
+	border-radius: 10px!important;
+	
+}
+textarea:focus{
+box-shadow: 0px 0px 15px #b0413e!important;
+}
+
+
+
+
+
+@media screen and (max-width: 768px)
+{
+	 h1{
+	padding-top:50px;
+	padding-left:150px;
+	padding-bottom: 50px;
+	font-size: 35px; 
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	}
+}
+
+@media screen and (max-width: 992px)
+{
+	 h1{
+	padding-top:100px;
+	padding-left:150px;
+	padding-bottom: 50px;
+	font-size: 50px; 
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	}
+}
